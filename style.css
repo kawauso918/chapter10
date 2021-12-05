@@ -12,7 +12,7 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-  display: inline-block;
+  display: flex;
 }
 .step-box {
   width: 300px;
@@ -69,10 +69,14 @@ footer {
     width: 100%;
   }
   main {
-    width: 100%;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    margin: 50px auto;
   }
   .step-box {
     width: 100%;
+    margin-bottom: 20px;
   }
   .step-img1 {
     width: 100%;
@@ -83,10 +87,6 @@ footer {
 
   }
   .step-img3 {
-    width: 100%;
-
-  }
-  .step-num {
     width: 100%;
 
   }
